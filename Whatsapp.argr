@@ -1,0 +1,15 @@
+<ArchitectureGraph>
+  <Module Identifier="5C4435F8-BFBB-4279-83E5-86C1220E330B" Name="Whatsapp.Api" />
+  <Module Identifier="3A512B97-789A-48C5-A4BD-70DB2FC3DBF7" Name="Common.Logging" />
+  <Module Identifier="B5164B50-E914-4666-ADC6-D76B1950BFAC" Name="Whatsapp.Infrastructure" />
+  <Module Identifier="67D3C5BD-D912-4290-B7C4-5A717BBC96E0" Name="Whatsapp.Application" />
+  <Module Identifier="328ACF31-3AAC-44D1-9FFF-E262B23FDB90" Name="Whatsapp.Domain" />
+  <Module Identifier="490BFDF6-F3F1-4D95-8455-07212A4231C9" Name="Shared" />
+  <Reference Identifier="5C4435F8-BFBB-4279-83E5-86C1220E330B/r:Common.Logging" SourceId="5C4435F8-BFBB-4279-83E5-86C1220E330B" Name="Common.Logging" TargetId="3A512B97-789A-48C5-A4BD-70DB2FC3DBF7" />
+  <Reference Identifier="67D3C5BD-D912-4290-B7C4-5A717BBC96E0/r:Whatsapp.Domain" SourceId="67D3C5BD-D912-4290-B7C4-5A717BBC96E0" Name="Whatsapp.Domain" TargetId="328ACF31-3AAC-44D1-9FFF-E262B23FDB90" />
+  <Reference Identifier="B5164B50-E914-4666-ADC6-D76B1950BFAC/r:Whatsapp.Application" SourceId="B5164B50-E914-4666-ADC6-D76B1950BFAC" Name="Whatsapp.Application" TargetId="67D3C5BD-D912-4290-B7C4-5A717BBC96E0" />
+  <Reference Identifier="B5164B50-E914-4666-ADC6-D76B1950BFAC/r:Whatsapp.Domain" SourceId="B5164B50-E914-4666-ADC6-D76B1950BFAC" Name="Whatsapp.Domain" TargetId="328ACF31-3AAC-44D1-9FFF-E262B23FDB90" />
+  <Reference Identifier="5C4435F8-BFBB-4279-83E5-86C1220E330B/r:Whatsapp.Infrastructure" SourceId="5C4435F8-BFBB-4279-83E5-86C1220E330B" Name="Whatsapp.Infrastructure" TargetId="B5164B50-E914-4666-ADC6-D76B1950BFAC" />
+  <Reference Identifier="5C4435F8-BFBB-4279-83E5-86C1220E330B/r:Whatsapp.Application" SourceId="5C4435F8-BFBB-4279-83E5-86C1220E330B" Name="Whatsapp.Application" TargetId="67D3C5BD-D912-4290-B7C4-5A717BBC96E0" />
+  <Reference Identifier="5C4435F8-BFBB-4279-83E5-86C1220E330B/r:Whatsapp.Domain" SourceId="5C4435F8-BFBB-4279-83E5-86C1220E330B" Name="Whatsapp.Domain" TargetId="328ACF31-3AAC-44D1-9FFF-E262B23FDB90" />
+</ArchitectureGraph>
